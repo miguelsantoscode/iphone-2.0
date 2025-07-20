@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <header>
+    
+        <nav class="navigation">
+           <a href="#"><img src="./image/logo.png" alt="logo da apple" class="logo"></a>
+            <ul>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">Ipad</a></li>
+                <li><a href="#">Iphone</a></li>
+                <li><a href="#">Whatch</a></li>
+                <li><a href="#">Airpods</a></li>
+                <li><a href="#">Só na apple</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+                      <!-- Segunda parte -->
+
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-text" >
+                <img src="./image/iphone13.png" alt="iphone13">
+              <h3>Seu novo <br> superpoder.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, architecto culpa. Corrupti, asperiores ut elit.  Minus, architecto culpa. Corrupti, asperiores ut.</p>
+              <h6>A partir de R$ 6.599</h6>
+              <a href="#" class="btn" >Comprar</a>
+              <div  class="text">
+              <h5>Escolha sua cor favorita:</h5></div>
+              <div class="content">
+                <span id="green" onclick="imgSlider('image/green.png');  circleChange('#384937')" ></span>
+                <span id="pink"  onclick="imgSlider('image/pink.png') ;  circleChange('#f8ddd6')"></span>
+                <span id="blue"  onclick="imgSlider('image/blue.png');   circleChange('#225f7e')"></span>
+                <span id="black"  onclick="imgSlider('image/black.png');   circleChange('#192028')"></span>
+                <span id="white"  onclick="imgSlider('image/white.png');  circleChange('#f7f2ee')"></span>
+                <span id="red"  onclick="imgSlider('image/red.png');  circleChange('#ae0617')"></span>
+              </div>
+            </div>
+            <div class="main-img">
+                <img src="./image/green.png" alt="iphone" id="phone" >
+
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
